@@ -17,7 +17,7 @@ const UserList: FC = () => {
 
     console.log(error)
     return (
-        <ul className="list-group">
+        <ul className="list-group mb-4">
             {users.map((user) => (
                 <li key={user.id} className="list-group-item d-flex">
                     <div className="w-50">{user.name}</div>
